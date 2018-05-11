@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>dotnetcore</id>
+    <version>1.0.0</version>
+    <authors>dotnetcore</authors>
+    <owners>dotnetcore</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Dotnet\dotnetcore\bin\Debug\netcoreapp2.1\publish\dotnetcore.deps.json" target="tools\netcoreapp2.1\any\dotnetcore.deps.json" />
+    <file src="C:\Dotnet\dotnetcore\bin\Debug\netcoreapp2.1\publish\dotnetcore.runtimeconfig.json" target="tools\netcoreapp2.1\any\dotnetcore.runtimeconfig.json" />
+    <file src="C:\Dotnet\dotnetcore\obj\DotnetToolSettings.xml" target="tools\netcoreapp2.1\any\DotnetToolSettings.xml" />
+    <file src="C:\Dotnet\dotnetcore\bin\Debug\netcoreapp2.1\publish\dotnetcore.dll" target="tools\netcoreapp2.1\any\dotnetcore.dll" />
+    <file src="C:\Dotnet\dotnetcore\bin\Debug\netcoreapp2.1\publish\dotnetcore.pdb" target="tools\netcoreapp2.1\any\dotnetcore.pdb" />
+  </files>
+</package>
